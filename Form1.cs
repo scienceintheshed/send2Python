@@ -24,8 +24,8 @@ namespace send2Python
 
         private void sendToPythonToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string args = string.Format(@"C:\users\steve\AppData\Local\Programs\Python\Python38\add.py {0} {1}", txtValue1.Text, txtValue2.Text);
-            string python = @"C:\users\steve\AppData\Local\Programs\Python\Python38\python.exe";
+            string args = string.Format(@"Full path to python script\add.py {0} {1}", txtValue1.Text, txtValue2.Text);
+            string python = @"Full path to your python executable\python.exe";
 
             try
             {
